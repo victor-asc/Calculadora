@@ -1,0 +1,43 @@
+ECHO est� activado.
+# ============================
+# IGNORAR ARCHIVOS DE ECLIPSE
+# ============================
+.classpath
+.project
+.settings/
+
+# ============================
+# ARCHIVOS COMPILADOS DE JAVA
+# ============================
+*.class
+
+# ============================
+# CARPETAS DE COMPILACIÓN
+# ============================
+bin/
+build/
+target/
+out/
+
+# ============================
+# ARCHIVOS DEL SISTEMA
+# ============================
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# ============================
+# LOGS Y TEMPORALES
+# ============================
+*.log
+*.tmp
+
+# ============================
+# OTROS
+# ============================
+# Archivos de empaquetado accidental
+*.jar
+*.war
+*.ear
