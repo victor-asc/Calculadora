@@ -6,6 +6,8 @@ public class Principal {
 	
 	static Scanner sc = new Scanner (System.in);
 	
+	System.out.println("Prueba commit.");
+
 	public static void main(String[] args) {
 		Gestor gestor = new Gestor();	
 		int opcion = -1;
