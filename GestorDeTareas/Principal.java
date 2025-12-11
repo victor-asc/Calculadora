@@ -10,6 +10,8 @@ public class Principal {
 		Gestor gestor = new Gestor();	
 		int opcion = -1;
 		
+		System.out.println("Voy a hacer un commit");
+		
 		while (opcion != 8) {
 			System.out.println("----------------");
 			System.out.println("GESTOR DE TAREAS");
