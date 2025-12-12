@@ -6,14 +6,10 @@ public class Principal {
 	
 	static Scanner sc = new Scanner (System.in);
 	
-	System.out.println("Prueba commit.");
-
 	public static void main(String[] args) {
 		Gestor gestor = new Gestor();	
 		int opcion = -1;
-		
-		System.out.println("Voy a hacer un commit");
-		
+				
 		while (opcion != 8) {
 			System.out.println("----------------");
 			System.out.println("GESTOR DE TAREAS");
